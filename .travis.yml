@@ -1,2 +1,6 @@
 language: csharp
 solution: RomanNumeralKata.sln
+
+script:
+  - xbuild /p:Configuration=Release RomanNumeralKata.sln
+  - mono ./packages/xunit.runners.*/tools/xunit.console.clr4.exe ./RomanNumeralKataTests/bin/Release/RomanNumeralKataTests.dll
