@@ -81,9 +81,14 @@ namespace RomanNumeralKata.Tests
         [InlineData(21, "XXI")]
         [InlineData(39, "XXXIX")]
         [InlineData(40, "XL")]
-        //[InlineData(44, "XLIV")]
-        //[InlineData(49, "XLIX")]
-
+        [InlineData(44, "XLIV")]
+        [InlineData(49, "XLIX")]
+        [InlineData(666, "DCLXVI")]
+        [InlineData(707, "DCCVII")]
+        [InlineData(890, "DCCCXC")]
+        [InlineData(1500, "MD")]
+        [InlineData(1515, "MDXV")]
+        [InlineData(4888, "MMMMDCCCLXXXVIII")]
         public void Int_Should_Return_String(int numberToConvert, string expectedResult)
         {
             var converter = new RomanNumeralConverter();
