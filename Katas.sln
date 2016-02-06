@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralKata", "RomanNumeralKata\RomanNumeralKata.csproj", "{16AEC091-1535-4D1D-960F-A41FB874F536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralKataTests", "RomanNumeralKataTests\RomanNumeralKataTests.csproj", "{3DA31CE1-7529-4260-AE12-9839FD97B5C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RomanNumeral", "RomanNumeral", "{D1C2358C-B162-4270-A233-7AB2732313CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringCalculator", "StringCalculator", "{EE3D8432-4BBE-46C1-8059-C34676A81B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKataTests", "StringCalculatorKataTests\StringCalculatorKataTests.csproj", "{3E79D3E9-811F-44EB-B00C-DFCCF7866D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCalculatorKata", "StringCalculator\StringCalculatorKata.csproj", "{19D44CCC-0677-4708-A485-E74437190633}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16AEC091-1535-4D1D-960F-A41FB874F536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AEC091-1535-4D1D-960F-A41FB874F536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AEC091-1535-4D1D-960F-A41FB874F536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AEC091-1535-4D1D-960F-A41FB874F536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA31CE1-7529-4260-AE12-9839FD97B5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA31CE1-7529-4260-AE12-9839FD97B5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA31CE1-7529-4260-AE12-9839FD97B5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA31CE1-7529-4260-AE12-9839FD97B5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E79D3E9-811F-44EB-B00C-DFCCF7866D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E79D3E9-811F-44EB-B00C-DFCCF7866D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E79D3E9-811F-44EB-B00C-DFCCF7866D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E79D3E9-811F-44EB-B00C-DFCCF7866D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D44CCC-0677-4708-A485-E74437190633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D44CCC-0677-4708-A485-E74437190633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D44CCC-0677-4708-A485-E74437190633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D44CCC-0677-4708-A485-E74437190633}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16AEC091-1535-4D1D-960F-A41FB874F536} = {D1C2358C-B162-4270-A233-7AB2732313CC}
+		{3DA31CE1-7529-4260-AE12-9839FD97B5C1} = {D1C2358C-B162-4270-A233-7AB2732313CC}
+		{3E79D3E9-811F-44EB-B00C-DFCCF7866D66} = {EE3D8432-4BBE-46C1-8059-C34676A81B23}
+		{19D44CCC-0677-4708-A485-E74437190633} = {EE3D8432-4BBE-46C1-8059-C34676A81B23}
+	EndGlobalSection
+EndGlobal
