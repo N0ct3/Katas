@@ -1,5 +1,6 @@
 ﻿using FluentAssertions;
 using Xunit;
+using Xunit.Extensions;
 
 namespace RomanNumeralKata.Tests
 {
